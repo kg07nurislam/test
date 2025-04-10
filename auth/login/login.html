@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Кирүү - kg07nurislam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(ellipse at top, #0f0c29, #302b63, #24243e);
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .glass-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 0 20px #00ffe0;
+      max-width: 400px;
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00ffe0;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .input-group input {
+      padding: 15px 45px 15px 20px;
+      border: none;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.1);
+      color: white;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .input-group i {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #00ffe0;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+      color: #000;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .google-btn {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: 1px solid #00ffe0;
+    }
+
+    .google-btn i {
+      margin-right: 8px;
+      color: #00ffe0;
+    }
+
+    .link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .link a {
+      color: #00ffe0;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-box">
+    <h2>Кирүү</h2>
+    <form>
+      <div class="input-group">
+        <input type="email" placeholder="Эл. почта" required />
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Сырсөз" required />
+        <i class="fas fa-lock"></i>
+      </div>
+      <button type="submit">Кирүү</button>
+    </form>
+    <button class="google-btn"><i class="fab fa-google"></i> Google менен кирүү</button>
+    <div class="link">
+      Аккаунтуң жокпу? <a href="/auth/auth/auth.html">Каттал</a>
+    </div>
+  </div>
+</body>
+</html>
