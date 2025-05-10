@@ -19,7 +19,7 @@ svg.append("defs")
 
 const treeLayout = d3.tree().nodeSize([100, 200]);
 let i = 0;
-let duration = 1000;
+let duration = 750;
 
 function collapse(d) {
   if (d.children) {
