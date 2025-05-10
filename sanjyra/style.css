@@ -1,0 +1,91 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  padding-top: 15px;
+}
+
+.h-container {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background: #A4EBF2;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40;
+  margin-left: auto;
+}
+
+.sanjyra {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  background-color: #003F45;
+  box-shadow:
+    inset 0 0 10px rgba(0, 255, 255, 0.7),
+    inset 0 0 10px rgba(0, 255, 255, 0.7),
+    inset 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.node circle {
+  fill: #3C4CFE;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.node text {
+  font: 20px sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.by {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  padding-bottom: 15px;
+}
+
+.by p {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background: #A4EBF2;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  gap: 3px;
+}
